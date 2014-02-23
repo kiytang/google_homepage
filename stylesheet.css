@@ -12,10 +12,12 @@
 					padding: 0 5px;
 }				
 
+
 a {
 	text-decoration: none;
 	display: inline;
 }
+
 
 a:hover{
 				text-decoration: underline;
@@ -23,6 +25,9 @@ a:hover{
 
 li {
 		display: inline;
+		font-size: 0.8em;
+		font-family: sans-serif;
+		color: #666666;
 }
 
 .sign_in{
@@ -45,16 +50,38 @@ li {
 			width: 270px; height: 95px;
 			display: block;
 			margin: auto;
-			padding-top: 200px
+			padding-top: 200px;
+			padding-left: 250px;
+			font-size: 13px
 }
 
 .search_box{
-						width: 400px;
+						width: 480px;
 						padding-top: 15px;
 						font-size: 13px;
 						display: block;
 						margin: auto;
+						padding: 8px 11px;
 }
+
+.search_buttons{
+								float: left;
+								width: 500px;
+								display: inline;
+								font-size:.7em;
+								padding-left: 850px;
+								padding-top: 10px;
+
+
+}
+.search_button{
+								display: inline-block;
+								text-align: center;
+								font-weight: bold;
+								margin: auto;
+								border: 1px solid;
+								background-color: #C6C6C6
+}	
 
 #footer{
 				position: absolute;
@@ -75,8 +102,13 @@ li {
 							padding-right: 20px;
 }
 
-.footer li{
-						font-size: 10em
+#footer a:link{ font-family: sans-serif; color: #666666; text-decoration: none; }
+#footer a:visited 	{ font-family: sans-serif; color: #666666; text-decoration: none: none; }
+
+#footer li{
+						font-size: 1.1em;
+						font-family: sans-serif;
+						color: #666666;
 }
 
 
