@@ -1,20 +1,16 @@
 #header{
 				width: 100%;
-				height: 30px;
-			/*	float: right;*/
+				height: 10px;
 				z-index: 999;
 				margin-left:-50px;}
 
 #header ul{
 					float: right;
 					margin: 5px, 0 3px;	
+					list-style-type: none;
+					display: inline;
+					padding: 0 5px;
 }				
-
-header li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 0 5px;
-}
 
 a {
 	text-decoration: none;
@@ -25,13 +21,12 @@ a:hover{
 				text-decoration: underline;
 }
 
-/*li {
+li {
 		display: inline;
-		list-style-type: none;
-		padding: 5px 8px 5px 8px;
-}*/
+}
 
-.signin{
+.sign_in{
+				color: white;
 				background-color: #326AFD;
 				border: 1px solid;
 				font-weight: bold;
@@ -47,38 +42,42 @@ a:hover{
 
 
 #logo{
-			width: 270px;
-			background-size: 269px 95px;
-			font-size: 13px;
-			height: 95px;
-			width: 269px;
+			width: 270px; height: 95px;
+			display: block;
+			margin: auto;
+			padding-top: 200px
 }
 
-#search-bar{
-						width: 100px;
+.search_box{
+						width: 400px;
 						padding-top: 15px;
 						font-size: 13px;
+						display: block;
+						margin: auto;
 }
-
 
 #footer{
 				position: absolute;
 				width: 100%;
-				/*text-align: center;*/
+				bottom: 0;
 				background-color: #EFEFEF;
 }
 
-.left-footer{
-						margin-left: 0px;
+.left_footer{
+						left: 0;
 						float:	left;
+						position: fixed;
 }
 
-.right-footer{
-							margin-right: 10px;	
+.right_footer{
+							right: 0;	
 							float: right;
+							padding-right: 20px;
 }
 
-
+.footer li{
+						font-size: 10em
+}
 
 
 
