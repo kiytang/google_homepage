@@ -12,6 +12,6 @@ The aim of this exercise was to recreate the basic google home page [google](htt
 
 As a starting guide to implementing navbars, I followed [CSS Navigation bar](http://www.w3schools.com/css/css_navbar.asp)
 
-Please find below a screen-shot of my verison:
+Please find below a screen-shot of my version:
 
 ![google screenshot](https://raw.github.com/kiytang/google_homepage/master/google_screenshot.png)
