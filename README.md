@@ -14,4 +14,4 @@ As a starting guide to implementing navbars, I followed [CSS Navigation bar](htt
 
 Please find below a screen-shot of my verison:
 
-![google screenshot](https://github.com/kiytang/google_homepage/blob/master/google_screenshot.png)
+![google screenshot](https://raw.github.com/kiytang/google_homepage/master/google_screenshot.png)
