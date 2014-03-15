@@ -1,4 +1,18 @@
-google_homepage
-===============
+# Google home page replica
 
-Task: To replicate the Google.com Home page using HTML and CSS
+## The Odin Project- Website 101-Front-end Exercise
+
+###Aim:
+The aim of this exercise was to recreate the basic google home page [google](https://www.google.co.uk/?gfe_rd=cr&ei=TCkkU6GVAoPR8geHjoGgBw) as an introduction to using:
+
+* HTML
+* CSS
+
+###Other details:
+
+As a starting guide to implementing navbars, I followed [CSS Navigation bar](http://www.w3schools.com/css/css_navbar.asp)
+
+Please find below a screen-shot of my verison:
+
+
+
